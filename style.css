@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 93vh;
+  margin-top: 50px;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 700px) {
+  h1 {
+    font-size: 100px;
+  }
+}
